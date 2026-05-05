@@ -28,9 +28,6 @@ classifiers = [
 [project.urls]
 Homepage = "https://github.com/hellboxpy/hellbox-ttfautohint"
 
-[tool.setuptools.dynamic]
-version = {attr = "hellbox.jobs.ttfautohint.__version__.__version__"}
-
 [tool.setuptools.packages.find]
 where = ["src"]
 namespaces = true
