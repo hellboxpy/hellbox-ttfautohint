@@ -31,6 +31,9 @@ Homepage = "https://github.com/hellboxpy/hellbox-ttfautohint"
 [dependency-groups]
 dev = ["pytest"]
 
+[tool.uv.sources]
+hellbox = { git = "https://github.com/hellboxpy/hellbox.git" }
+
 [tool.setuptools.packages.find]
 where = ["src"]
 namespaces = true
