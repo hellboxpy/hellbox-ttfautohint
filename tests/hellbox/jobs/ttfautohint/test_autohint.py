@@ -18,6 +18,6 @@ class TestAutohint:
             result = Autohint().process(file)
 
         file.copy.assert_called_once()
-        mock_ta.assert_called_once_with(in_buf=b"fake ttf data")
+        mock_ta.assert_called_once_with(in_buffer=b"fake ttf data")
         copy.content_path.write_bytes.assert_called_once_with(b"hinted ttf data")
         assert result is copy

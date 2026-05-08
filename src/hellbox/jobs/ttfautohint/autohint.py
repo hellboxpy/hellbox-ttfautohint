@@ -9,6 +9,6 @@ class Autohint(Chute):
     def process(self, file):
         Hellbox.info(f"Autohinting: {file.name}")
         copy = file.copy()
-        hinted = _autohint(in_buf=copy.read_bytes())
+        hinted = _autohint(in_buffer=copy.read_bytes())
         copy.content_path.write_bytes(hinted)
         return copy

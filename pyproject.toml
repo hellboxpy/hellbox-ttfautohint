@@ -28,6 +28,9 @@ classifiers = [
 [project.urls]
 Homepage = "https://github.com/hellboxpy/hellbox-ttfautohint"
 
+[dependency-groups]
+dev = ["pytest"]
+
 [tool.setuptools.packages.find]
 where = ["src"]
 namespaces = true
