@@ -15,5 +15,12 @@ with Hellbox("hint") as task:
 ## Installation
 
 ```sh
-pip install hellbox-ttfautohint
+hell add hellbox-ttfautohint
+```
+
+## Development
+
+```sh
+uv sync
+uv run pytest
 ```
