@@ -29,7 +29,7 @@ classifiers = [
 Homepage = "https://github.com/hellboxpy/hellbox-ttfautohint"
 
 [dependency-groups]
-dev = ["pytest"]
+dev = ["mdformat", "pytest"]
 
 [tool.uv.sources]
 hellbox = { git = "https://github.com/hellboxpy/hellbox.git" }
