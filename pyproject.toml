@@ -28,6 +28,7 @@ urls.Homepage = "https://github.com/hellboxpy/hellbox-ttfautohint"
 
 [dependency-groups]
 dev = [
+  "commitizen>=4.16.2",
   "mdformat",
   "pyproject-fmt>=2.21.2",
   "pytest",
